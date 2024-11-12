@@ -157,22 +157,5 @@ The project is organized into the following files:
 - **`utils/`**: This directory can be used for shared utility functions, though this project does not require any currently.
 - **`__init__.py`**: Required to mark directories as Python packages, allowing easy imports across files.
 
-## Contributing
-
-Feel free to fork this repository, make changes, and submit pull requests if you'd like to contribute to this project. Contributions can include:
-
-- Adding new file operation commands.
-- Improving the error handling or edge case scenarios.
-- Optimizing the code for better performance or readability.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any questions, suggestions, or issues, feel free to open an issue in the GitHub repository or contact me directly at [your-email@example.com].
-
 ---
-
 Thank you for using this CLI File Operations Tool. Happy coding! 🚀
