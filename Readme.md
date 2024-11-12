@@ -1,4 +1,4 @@
-# CLI File Operations Tool
+# In Memory File System Operations Tool
 
 A simple Command Line Interface (CLI) application written in Python that mimics basic file operations like `mkdir`, `cd`, `ls`, `cat`, `touch`, `echo`, `mv`, `cp`, and `rm`. This tool allows users to perform these file operations directly from the terminal. It’s a modular CLI app where each command is implemented in its own separate file for easy maintenance and extension.
 
@@ -31,7 +31,7 @@ If you don’t have Python installed, you can download it from [python.org](http
 First, fork and clone the repository to your local system using Git:
 
 ```bash
-git clone https://github.com/yourusername/cli-file-operations.git
+git clone https://github.com/yourusername/in-memory-file-system.git
 ```
 
 ### Install Dependencies
@@ -39,7 +39,7 @@ git clone https://github.com/yourusername/cli-file-operations.git
 Navigate to the project directory:
 
 ```bash
-cd cli-file-operations
+cd in-memory-file-system
 ```
 
 This project does not have any external dependencies, as it only uses Python's built-in libraries (`os`, `shutil`, etc.), so no installation of extra packages is necessary. However, it’s always a good practice to work in a virtual environment:
@@ -65,7 +65,7 @@ This project does not have any external dependencies, as it only uses Python's b
 Once the repository is cloned and dependencies are set up, you can run the application by executing:
 
 ```bash
-python cli_app/main.py
+python app.py
 ```
 
 This will start a command-line interface where you can use the following commands:
